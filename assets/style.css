@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #222;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+b {
+    font-size: 14px;
+    color: #222;
+}
+
+
+header {
+    background-color: #dbeafe;
+    padding: 20px;
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+}
+
+
+main {
+    padding: 30px 50px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+#dashboard {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.boxPanel {
+    background-color: #76c8da;
+    padding: 15px;
+    border: 1px solid #4382ac;
+    border-radius: 5px;
+
+    width: 230px;
+    min-height: 120px;
+
+    box-sizing: border-box;
+}
+
+.boxPanel h4 {
+    font-size: 20px;
+    margin: 10px 0 25px;
+}
+
+.boxPanel p {
+    margin: 0;
+}
+
+
+#basic-info {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+#fotoProfil {
+    width: 150px;
+    height: 150%;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+    border: 2px solid #4382ac;
+
+    margin-bottom: 15px;
+}
+
+
+#inputFoto {
+    display: none;
+}
+
+
+.right {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.right h3 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.right p {
+    margin-bottom: 10px;
+}
+
+
+#education-history {
+    clear: both;
+
+    margin-top: 20px;
+    padding: 20px;
+
+    background-color: #f5f7ff;
+
+    border: 1px solid #d0d5e8;
+    border-radius: 6px;
+}
+
+#education-history h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    color: #153481;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #cbd0dc;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+thead {
+    background-color: #153481;
+    color: white;
+}
+
+thead th {
+    font-size: 14px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5f7fb;
+}
+
+tbody tr:hover {
+    background-color: #eef2ff;
+}
+
+tfoot {
+    background-color: #e5e7eb;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+footer {
+    background-color: #dbeafe;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
