@@ -6,7 +6,6 @@ body {
     color: #222;
 }
 
-/* Header */
 header {
     background-color: #dbeafe;
     padding: 20px;
@@ -20,7 +19,6 @@ header p {
     color: #333;
 }
 
-/* Isi utama */
 main {
     padding: 30px 50px;
     max-width: 1100px;
@@ -32,14 +30,12 @@ h1 {
     margin-bottom: 35px;
 }
 
-/* Informasi dasar */
 #basic-info {
     display: flex;
     gap: 30px;
     margin-bottom: 30px;
 }
 
-/* Foto */
 .left {
     width: 150px;
 }
@@ -52,7 +48,6 @@ h1 {
     border: 2px solid #4382ac;
 }
 
-/* Data diri */
 .right {
     width: 50%;
     padding: 10px;
@@ -73,7 +68,6 @@ h1 {
     font-weight: normal;
 }
 
-/* Riwayat sekolah */
 #education-history {
     margin-top: 20px;
     padding: 20px;
@@ -90,7 +84,6 @@ h1 {
     color: #153481;
 }
 
-/* Tabel */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -121,7 +114,6 @@ tbody tr:hover {
     background-color: #eef2ff;
 }
 
-/* Footer */
 footer {
     background-color: #dbeafe;
     padding: 10px;
