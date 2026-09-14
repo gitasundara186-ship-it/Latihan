@@ -6,18 +6,7 @@ body {
     color: #222;
 }
 
-p {
-    font-size: 14px;
-    color: #333;
-    line-height: 1.5;
-}
-
-b {
-    font-size: 14px;
-    color: #222;
-}
-
-
+/* Header */
 header {
     background-color: #dbeafe;
     padding: 20px;
@@ -26,9 +15,12 @@ header {
 
 header p {
     margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
 }
 
-
+/* Isi utama */
 main {
     padding: 30px 50px;
     max-width: 1100px;
@@ -36,62 +28,31 @@ main {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 25px;
     margin-bottom: 35px;
 }
 
-#dashboard {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-.boxPanel {
-    background-color: #76c8da;
-    padding: 15px;
-    border: 1px solid #4382ac;
-    border-radius: 5px;
-
-    width: 230px;
-    min-height: 120px;
-
-    box-sizing: border-box;
-}
-
-.boxPanel h4 {
-    font-size: 20px;
-    margin: 10px 0 25px;
-}
-
-.boxPanel p {
-    margin: 0;
-}
-
-
+/* Informasi dasar */
 #basic-info {
     display: flex;
     gap: 30px;
     margin-bottom: 30px;
 }
 
-#fotoProfil {
+/* Foto */
+.left {
     width: 150px;
-    height: 150%;
+}
 
+.left img {
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-
     border-radius: 8px;
     border: 2px solid #4382ac;
-
-    margin-bottom: 15px;
 }
 
-
-#inputFoto {
-    display: none;
-}
-
-
+/* Data diri */
 .right {
     width: 50%;
     padding: 10px;
@@ -105,29 +66,31 @@ h1 {
 }
 
 .right p {
+    font-size: 18px;
     margin-bottom: 10px;
+    color: #333;
+    line-height: 1.5;
+    font-weight: normal;
 }
 
-
+/* Riwayat sekolah */
 #education-history {
-    clear: both;
-
     margin-top: 20px;
     padding: 20px;
-
     background-color: #f5f7ff;
-
     border: 1px solid #d0d5e8;
     border-radius: 6px;
 }
 
-#education-history h3 {
+#education-history p {
+    font-size: 24px;
+    font-weight: bold;
     margin-top: 0;
     margin-bottom: 15px;
-
     color: #153481;
 }
 
+/* Tabel */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -158,14 +121,7 @@ tbody tr:hover {
     background-color: #eef2ff;
 }
 
-tfoot {
-    background-color: #e5e7eb;
-}
-
-tfoot th {
-    text-align: right;
-}
-
+/* Footer */
 footer {
     background-color: #dbeafe;
     padding: 10px;
@@ -174,4 +130,6 @@ footer {
 
 footer p {
     margin: 0;
+    font-size: 14px;
+    font-weight: normal;
 }
